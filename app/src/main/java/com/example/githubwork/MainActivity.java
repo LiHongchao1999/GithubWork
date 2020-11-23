@@ -20,6 +20,5 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragment = new Fragment();
         Log.e("hello","123");
         System.out.println(123);
-		System.out.println(435345);
     }
 }
