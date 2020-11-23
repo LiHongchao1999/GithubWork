@@ -2,6 +2,7 @@ package com.example.githubwork;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,5 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragment = new Fragment();
         Log.e("hello","123");
         System.out.println(123);
+        FragmentActivity fragmentActivity = new FragmentActivity();
+
     }
 }
