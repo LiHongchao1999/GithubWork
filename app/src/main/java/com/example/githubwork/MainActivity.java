@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e("hello","world");
+        Intent intent = new Intent();
+        Fragment fragment = new Fragment();
         Log.e("hello","123");
         System.out.println(123);
 
@@ -27,5 +29,6 @@ public class MainActivity extends AppCompatActivity {
 	    System.out.println(435345);System.out.println(435345);
 	    System.out.println(435345);
 	    System.out.println(435345);
+		System.out.println(435345);
     }
 }
