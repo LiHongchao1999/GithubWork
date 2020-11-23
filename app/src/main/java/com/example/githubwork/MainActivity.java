@@ -19,5 +19,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent();
         Fragment fragment = new Fragment();
 
+        Log.e("hello","123");
+        System.out.println(123);
+		System.out.println(123);
+		System.out.println(123);System.out.println(123);
+		System.out.println(123);
+		System.out.println(123);System.out.println(123);
+		System.out.println(123);
     }
 }
